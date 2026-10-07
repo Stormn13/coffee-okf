@@ -11,3 +11,5 @@ Welcome to the internal knowledge base. From here, you can access our core docum
 
 -[Our Menu Options](menu.md)
 -[Customer Refund Policy](policies/refund-policy.md)
+- [Barista Shift Guide](staff/barista-guide.md)
+- [Hardware & IoT Specs](hardware/fridge-sensor.md)
