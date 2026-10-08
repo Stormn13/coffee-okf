@@ -2,7 +2,7 @@
 type: overview
 title: Bean & Byte Coffee Shop Directory
 description: Master index for all coffee shop operations, menus and policies
-tags: [operations, index]
+tags: [operations]
 ---
 
 # Bean & Byte Knowledge Base

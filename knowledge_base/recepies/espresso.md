@@ -2,7 +2,7 @@
 type: recipe
 title: Espresso
 description: A short, intense coffee shot made by forcing hot water through finely ground coffee.
-tags: [coffee, espresso, hot]
+tags: [coffee, hot]
 ---
 
 # Espresso

@@ -2,7 +2,7 @@
 type: recipe
 title: Cold Brew
 description: A cold-steeped coffee with a smooth body and naturally sweet finish.
-tags: [coffee, cold-brew, cold]
+tags: [coffee, cold]
 ---
 
 # Cold Brew

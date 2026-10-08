@@ -2,7 +2,7 @@
 type: recipe
 title: Latte
 description: A smooth espresso drink with steamed milk and a light layer of foam.
-tags: [coffee, latte, hot, milk]
+tags: [coffee, hot, milk]
 ---
 
 # Latte

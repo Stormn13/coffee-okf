@@ -2,7 +2,7 @@
 type: policy
 title: Refund and Remake Policy
 description: Standard operating procedure for unhappy customers.
-tags: [sop, customer-service]
+tags: [policy]
 ---
 
 # Refund Policy

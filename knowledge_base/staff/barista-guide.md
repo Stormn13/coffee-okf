@@ -2,7 +2,7 @@
 type: role_guide
 title: Barista Shift Guide
 description: Daily responsibilities and quick links for baristas.
-tags: [onboarding, staff]
+tags: [staff]
 ---
 
 # Barista Shift Guide

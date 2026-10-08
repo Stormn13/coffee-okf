@@ -2,7 +2,7 @@
 type: menu_catalog
 title: Drink Menu
 description: Current list of available beverages and pricing.
-tags: [menu, customer-facing]
+tags: [menu]
 ---
 
 # Drink Menu

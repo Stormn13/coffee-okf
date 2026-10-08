@@ -2,7 +2,7 @@
 type: recipe
 title: Cappuccino
 description: An espresso drink with equal parts espresso, steamed milk, and foam.
-tags: [coffee, cappuccino, hot, milk]
+tags: [coffee, hot, milk]
 ---
 
 # Cappuccino

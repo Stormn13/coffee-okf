@@ -2,7 +2,7 @@
 type: recipe
 title: Pour Over
 description: A manual brewing method that produces a clean, aromatic cup with bright flavor clarity.
-tags: [coffee, pour-over, hot]
+tags: [coffee, hot]
 ---
 
 # Pour Over

@@ -2,7 +2,7 @@
 type: recipe
 title: Americano
 description: Espresso diluted with hot water for a lighter, smoother cup.
-tags: [coffee, americano, hot]
+tags: [coffee, hot]
 ---
 
 # Americano
