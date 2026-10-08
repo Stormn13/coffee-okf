@@ -9,8 +9,8 @@ tags: [menu, customer-facing]
 
 We serve the following standard drinks:
 
-*   **Espresso:** $3.00 [espresso-recepie](recepies\espresso.md)
-*   **Latte:** $4.50 [latte-recepie](recepies\latte.md)
-*   **Pour Over:** $4.00 [pour-over-recepie](recepies\pour-over.md)
+*   **Espresso:** $3.00
+*   **Latte:** $4.50
+*   **Pour Over:** $4.00
 
 If a customer is unhappy with their drink, please refer to the [Refund Policy](policies/refund-policy.md).

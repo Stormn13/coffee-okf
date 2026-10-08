@@ -2,7 +2,7 @@
 type: equipment
 title: Smart Fridge Temperature Sensor
 description: Maintenance logs and specs for the ESP32 milk fridge monitor.
-tags: [iot, hardware, maintenance]
+tags: [hardware, maintenance]
 ---
 
 # Fridge Sensor (ESP32)
