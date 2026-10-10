@@ -7,6 +7,6 @@ FilterType = Literal['coffee', 'hot', 'cold', 'milk', 'menu', 'policy', 'staff',
 class filter_output(BaseModel):
     filters: list[FilterType] = Field(
         min_length=2,
-        max_length=3,
+        max_length=2,
         description="Analyze the question and select exactly 2 to 3 filters that suit this question the best."
     )
