@@ -1,9 +1,9 @@
-from typing import TypedDict, Literal
+from typing import TypedDict, Literal, NotRequired
 
 class State(TypedDict):
-    initial_question : str
-    tag : list[Literal['coffee', 'hot', 'cold', 'milk', 'menu', 'policy', 'staff', 'hardware', 'operations']]
-    selected_file : str
-    output: str
+    initial_question : str 
+    tag : NotRequired[list[Literal['coffee', 'hot', 'cold', 'milk', 'menu', 'policy', 'staff', 'hardware', 'operations']]] 
+    selected_file : NotRequired[str]
+    output: NotRequired[str]
 
 
