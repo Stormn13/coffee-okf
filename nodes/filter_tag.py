@@ -9,7 +9,10 @@ from langchain_core.messages import HumanMessage
 def filter_tag(state: State):
     
     #add index.md in the model
-    client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
+    api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+    if not api_key:
+        raise RuntimeError("Set GEMINI_API_KEY or GOOGLE_API_KEY in the project .env file.")
+    client = genai.Client(api_key=api_key)
     index_path = Path(__file__).resolve().parent.parent / "knowledge_base" / "index.md"
     my_file = client.files.upload(file=str(index_path))
     # Ensure the file is ready (best practice for larger files)

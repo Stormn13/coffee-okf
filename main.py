@@ -1,3 +1,8 @@
+from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv(Path(__file__).resolve().parent / ".env", override=True)
+
 from langgraph.graph import StateGraph, START, END
 from others.state import State
 from nodes.input_question import input_question

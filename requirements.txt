@@ -1,0 +1,5 @@
+langgraph
+langchain-google-genai
+google-genai
+python-frontmatter
+python-dotenv
