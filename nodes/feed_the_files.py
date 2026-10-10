@@ -13,7 +13,7 @@ def __compare(A: list, B: list) -> float:
 
 
 def feed_the_files(state : State):
-    listA = state['tag'] #first list
+    listA = state['tag'] #first list #type: ignore
     maxx = [0 , ""] 
     dir_path = Path("../knowledge_graph")
     #loop to iteratively check the second list

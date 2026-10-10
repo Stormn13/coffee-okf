@@ -3,13 +3,15 @@ from others.models import filter_model
 from google import genai
 import os
 import time
+from pathlib import Path
 from langchain_core.messages import HumanMessage
 
 def filter_tag(state: State):
     
     #add index.md in the model
     client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
-    my_file = client.files.upload(file="../knowledge_base/index.md")
+    index_path = Path(__file__).resolve().parent.parent / "knowledge_base" / "index.md"
+    my_file = client.files.upload(file=str(index_path))
     # Ensure the file is ready (best practice for larger files)
     while my_file.state.name == "PROCESSING":  # type: ignore
         time.sleep(2)
@@ -29,4 +31,4 @@ def filter_tag(state: State):
 
     )
     response = filter_model.invoke([message])
-    return {"tag " : response.filters} #type: ignore
+    return {"tag" : response.filters} #type: ignore
