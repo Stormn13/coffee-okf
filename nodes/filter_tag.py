@@ -23,7 +23,7 @@ def filter_tag(state: State):
         content=[
             {
             "type":"text",
-            "text":"Look at the document and the question and then let us know which of the filters suit the incoming answer the most"
+            "text":f"Look at the document and the question{ state['initial_question']} and then let us know which of the filters suit the incoming answer the most"
             },
             {
                 "type":"media",
